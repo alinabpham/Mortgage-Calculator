@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB24D731EF3255600A07469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D721EF3255600A07469 /* AppDelegate.swift */; };
+		BFB24D751EF3255600A07469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D741EF3255600A07469 /* ViewController.swift */; };
+		BFB24D781EF3255600A07469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D761EF3255600A07469 /* Main.storyboard */; };
+		BFB24D7A1EF3255600A07469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D791EF3255600A07469 /* Assets.xcassets */; };
+		BFB24D7D1EF3255600A07469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D7B1EF3255600A07469 /* LaunchScreen.storyboard */; };
+		BFB24D881EF3255600A07469 /* MortgageCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D871EF3255600A07469 /* MortgageCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB24D841EF3255600A07469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB24D671EF3255500A07469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB24D6E1EF3255500A07469;
+			remoteInfo = MortgageCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB24D6F1EF3255500A07469 /* MortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB24D721EF3255600A07469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB24D741EF3255600A07469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB24D771EF3255600A07469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB24D791EF3255600A07469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB24D7C1EF3255600A07469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB24D7E1EF3255600A07469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB24D831EF3255600A07469 /* MortgageCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortgageCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB24D871EF3255600A07469 /* MortgageCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorTests.swift; sourceTree = "<group>"; };
+		BFB24D891EF3255600A07469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB24D6C1EF3255500A07469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24D801EF3255600A07469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB24D661EF3255500A07469 = {
+			isa = PBXGroup;
+			children = (
+				BFB24D711EF3255500A07469 /* MortgageCalculator */,
+				BFB24D861EF3255600A07469 /* MortgageCalculatorTests */,
+				BFB24D701EF3255500A07469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB24D701EF3255500A07469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24D6F1EF3255500A07469 /* MortgageCalculator.app */,
+				BFB24D831EF3255600A07469 /* MortgageCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB24D711EF3255500A07469 /* MortgageCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24D721EF3255600A07469 /* AppDelegate.swift */,
+				BFB24D741EF3255600A07469 /* ViewController.swift */,
+				BFB24D761EF3255600A07469 /* Main.storyboard */,
+				BFB24D791EF3255600A07469 /* Assets.xcassets */,
+				BFB24D7B1EF3255600A07469 /* LaunchScreen.storyboard */,
+				BFB24D7E1EF3255600A07469 /* Info.plist */,
+			);
+			path = MortgageCalculator;
+			sourceTree = "<group>";
+		};
+		BFB24D861EF3255600A07469 /* MortgageCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24D871EF3255600A07469 /* MortgageCalculatorTests.swift */,
+				BFB24D891EF3255600A07469 /* Info.plist */,
+			);
+			path = MortgageCalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB24D6E1EF3255500A07469 /* MortgageCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB24D8C1EF3255600A07469 /* Build configuration list for PBXNativeTarget "MortgageCalculator" */;
+			buildPhases = (
+				BFB24D6B1EF3255500A07469 /* Sources */,
+				BFB24D6C1EF3255500A07469 /* Frameworks */,
+				BFB24D6D1EF3255500A07469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MortgageCalculator;
+			productName = MortgageCalculator;
+			productReference = BFB24D6F1EF3255500A07469 /* MortgageCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB24D821EF3255600A07469 /* MortgageCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB24D8F1EF3255600A07469 /* Build configuration list for PBXNativeTarget "MortgageCalculatorTests" */;
+			buildPhases = (
+				BFB24D7F1EF3255600A07469 /* Sources */,
+				BFB24D801EF3255600A07469 /* Frameworks */,
+				BFB24D811EF3255600A07469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB24D851EF3255600A07469 /* PBXTargetDependency */,
+			);
+			name = MortgageCalculatorTests;
+			productName = MortgageCalculatorTests;
+			productReference = BFB24D831EF3255600A07469 /* MortgageCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB24D671EF3255500A07469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alina Pham";
+				TargetAttributes = {
+					BFB24D6E1EF3255500A07469 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BFB24D821EF3255600A07469 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFB24D6E1EF3255500A07469;
+					};
+				};
+			};
+			buildConfigurationList = BFB24D6A1EF3255500A07469 /* Build configuration list for PBXProject "MortgageCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB24D661EF3255500A07469;
+			productRefGroup = BFB24D701EF3255500A07469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB24D6E1EF3255500A07469 /* MortgageCalculator */,
+				BFB24D821EF3255600A07469 /* MortgageCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB24D6D1EF3255500A07469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24D7D1EF3255600A07469 /* LaunchScreen.storyboard in Resources */,
+				BFB24D7A1EF3255600A07469 /* Assets.xcassets in Resources */,
+				BFB24D781EF3255600A07469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24D811EF3255600A07469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB24D6B1EF3255500A07469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24D751EF3255600A07469 /* ViewController.swift in Sources */,
+				BFB24D731EF3255600A07469 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24D7F1EF3255600A07469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24D881EF3255600A07469 /* MortgageCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB24D851EF3255600A07469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB24D6E1EF3255500A07469 /* MortgageCalculator */;
+			targetProxy = BFB24D841EF3255600A07469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB24D761EF3255600A07469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB24D771EF3255600A07469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB24D7B1EF3255600A07469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB24D7C1EF3255600A07469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB24D8A1EF3255600A07469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB24D8B1EF3255600A07469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB24D8D1EF3255600A07469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MortgageCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFB24D8E1EF3255600A07469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MortgageCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFB24D901EF3255600A07469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MortgageCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MortgageCalculator.app/MortgageCalculator";
+			};
+			name = Debug;
+		};
+		BFB24D911EF3255600A07469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MortgageCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MortgageCalculator.app/MortgageCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB24D6A1EF3255500A07469 /* Build configuration list for PBXProject "MortgageCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24D8A1EF3255600A07469 /* Debug */,
+				BFB24D8B1EF3255600A07469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB24D8C1EF3255600A07469 /* Build configuration list for PBXNativeTarget "MortgageCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24D8D1EF3255600A07469 /* Debug */,
+				BFB24D8E1EF3255600A07469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB24D8F1EF3255600A07469 /* Build configuration list for PBXNativeTarget "MortgageCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24D901EF3255600A07469 /* Debug */,
+				BFB24D911EF3255600A07469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB24D671EF3255500A07469 /* Project object */;
+}
