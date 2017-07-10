@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3AE7C31F0D4600004E973A /* TermRateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3AE7C21F0D4600004E973A /* TermRateInfo.swift */; };
+		BF94D0611EFAE84E00A58AA0 /* UITextField+Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94D0601EFAE84E00A58AA0 /* UITextField+Padding.swift */; };
+		BF94D0631EFAF17800A58AA0 /* String+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94D0621EFAF17800A58AA0 /* String+Currency.swift */; };
+		BF94D0651EFB0C0F00A58AA0 /* MortgageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94D0641EFB0C0F00A58AA0 /* MortgageTableViewCell.swift */; };
 		BFB24D731EF3255600A07469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D721EF3255600A07469 /* AppDelegate.swift */; };
-		BFB24D751EF3255600A07469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D741EF3255600A07469 /* ViewController.swift */; };
+		BFB24D751EF3255600A07469 /* MortgageCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D741EF3255600A07469 /* MortgageCalculatorViewController.swift */; };
 		BFB24D781EF3255600A07469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D761EF3255600A07469 /* Main.storyboard */; };
 		BFB24D7A1EF3255600A07469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D791EF3255600A07469 /* Assets.xcassets */; };
 		BFB24D7D1EF3255600A07469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24D7B1EF3255600A07469 /* LaunchScreen.storyboard */; };
 		BFB24D881EF3255600A07469 /* MortgageCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D871EF3255600A07469 /* MortgageCalculatorTests.swift */; };
+		BFB24D931EF8464100A07469 /* MortgageCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D921EF8464000A07469 /* MortgageCalculation.swift */; };
+		BFB24D961EF87EAD00A07469 /* KeyBoard+Done.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24D951EF87EAD00A07469 /* KeyBoard+Done.swift */; };
+		BFCDF44C1EFB293C00770C33 /* MortgageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF44B1EFB293C00770C33 /* MortgageTableViewController.swift */; };
+		BFCDF44E1EFB2D5200770C33 /* MortgageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF44D1EFB2D5200770C33 /* MortgageDetailViewController.swift */; };
+		BFCDF4501F01CEED00770C33 /* MortgageBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF44F1F01CEEC00770C33 /* MortgageBarViewController.swift */; };
+		BFCDF45A1F01CFBD00770C33 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCDF4571F01CF9100770C33 /* Charts.framework */; };
+		BFCDF45B1F01CFBD00770C33 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFCDF4571F01CF9100770C33 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFCDF4601F03216E00770C33 /* BarChartView+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF45F1F03216E00770C33 /* BarChartView+Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +35,51 @@
 			remoteGlobalIDString = BFB24D6E1EF3255500A07469;
 			remoteInfo = MortgageCalculator;
 		};
+		BFCDF4561F01CF9100770C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		BFCDF4581F01CF9100770C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		BFCDF45C1F01CFBD00770C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BFCDF45E1F01CFBD00770C33 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFCDF45B1F01CFBD00770C33 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BF3AE7C21F0D4600004E973A /* TermRateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermRateInfo.swift; sourceTree = "<group>"; };
+		BF94D0601EFAE84E00A58AA0 /* UITextField+Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Padding.swift"; sourceTree = "<group>"; };
+		BF94D0621EFAF17800A58AA0 /* String+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Currency.swift"; sourceTree = "<group>"; };
+		BF94D0641EFB0C0F00A58AA0 /* MortgageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageTableViewCell.swift; sourceTree = "<group>"; };
 		BFB24D6F1EF3255500A07469 /* MortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB24D721EF3255600A07469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB24D741EF3255600A07469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB24D741EF3255600A07469 /* MortgageCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorViewController.swift; sourceTree = "<group>"; };
 		BFB24D771EF3255600A07469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB24D791EF3255600A07469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB24D7C1EF3255600A07469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +87,13 @@
 		BFB24D831EF3255600A07469 /* MortgageCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortgageCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB24D871EF3255600A07469 /* MortgageCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorTests.swift; sourceTree = "<group>"; };
 		BFB24D891EF3255600A07469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB24D921EF8464000A07469 /* MortgageCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageCalculation.swift; sourceTree = "<group>"; };
+		BFB24D951EF87EAD00A07469 /* KeyBoard+Done.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyBoard+Done.swift"; sourceTree = "<group>"; };
+		BFCDF44B1EFB293C00770C33 /* MortgageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageTableViewController.swift; sourceTree = "<group>"; };
+		BFCDF44D1EFB2D5200770C33 /* MortgageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageDetailViewController.swift; sourceTree = "<group>"; };
+		BFCDF44F1F01CEEC00770C33 /* MortgageBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageBarViewController.swift; sourceTree = "<group>"; };
+		BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		BFCDF45F1F03216E00770C33 /* BarChartView+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BarChartView+Data.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCDF45A1F01CFBD00770C33 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +121,7 @@
 				BFB24D711EF3255500A07469 /* MortgageCalculator */,
 				BFB24D861EF3255600A07469 /* MortgageCalculatorTests */,
 				BFB24D701EF3255500A07469 /* Products */,
+				BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +137,15 @@
 		BFB24D711EF3255500A07469 /* MortgageCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BFB24D941EF87E9300A07469 /* Extensions */,
 				BFB24D721EF3255600A07469 /* AppDelegate.swift */,
-				BFB24D741EF3255600A07469 /* ViewController.swift */,
+				BFB24D921EF8464000A07469 /* MortgageCalculation.swift */,
+				BF3AE7C21F0D4600004E973A /* TermRateInfo.swift */,
+				BFB24D741EF3255600A07469 /* MortgageCalculatorViewController.swift */,
+				BFCDF44D1EFB2D5200770C33 /* MortgageDetailViewController.swift */,
+				BFCDF44F1F01CEEC00770C33 /* MortgageBarViewController.swift */,
+				BF94D0641EFB0C0F00A58AA0 /* MortgageTableViewCell.swift */,
+				BFCDF44B1EFB293C00770C33 /* MortgageTableViewController.swift */,
 				BFB24D761EF3255600A07469 /* Main.storyboard */,
 				BFB24D791EF3255600A07469 /* Assets.xcassets */,
 				BFB24D7B1EF3255600A07469 /* LaunchScreen.storyboard */,
@@ -96,6 +163,26 @@
 			path = MortgageCalculatorTests;
 			sourceTree = "<group>";
 		};
+		BFB24D941EF87E9300A07469 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24D951EF87EAD00A07469 /* KeyBoard+Done.swift */,
+				BF94D0601EFAE84E00A58AA0 /* UITextField+Padding.swift */,
+				BF94D0621EFAF17800A58AA0 /* String+Currency.swift */,
+				BFCDF45F1F03216E00770C33 /* BarChartView+Data.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BFCDF4521F01CF9000770C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF4571F01CF9100770C33 /* Charts.framework */,
+				BFCDF4591F01CF9100770C33 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +193,12 @@
 				BFB24D6B1EF3255500A07469 /* Sources */,
 				BFB24D6C1EF3255500A07469 /* Frameworks */,
 				BFB24D6D1EF3255500A07469 /* Resources */,
+				BFCDF45E1F01CFBD00770C33 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BFCDF45D1F01CFBD00770C33 /* PBXTargetDependency */,
 			);
 			name = MortgageCalculator;
 			productName = MortgageCalculator;
@@ -146,6 +235,7 @@
 				TargetAttributes = {
 					BFB24D6E1EF3255500A07469 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SAQ54M6373;
 						ProvisioningStyle = Automatic;
 					};
 					BFB24D821EF3255600A07469 = {
@@ -166,6 +256,12 @@
 			mainGroup = BFB24D661EF3255500A07469;
 			productRefGroup = BFB24D701EF3255500A07469 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BFCDF4521F01CF9000770C33 /* Products */;
+					ProjectRef = BFCDF4511F01CF9000770C33 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BFB24D6E1EF3255500A07469 /* MortgageCalculator */,
@@ -173,6 +269,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BFCDF4571F01CF9100770C33 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = BFCDF4561F01CF9100770C33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BFCDF4591F01CF9100770C33 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = BFCDF4581F01CF9100770C33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BFB24D6D1EF3255500A07469 /* Resources */ = {
@@ -199,8 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB24D751EF3255600A07469 /* ViewController.swift in Sources */,
+				BFB24D961EF87EAD00A07469 /* KeyBoard+Done.swift in Sources */,
+				BFB24D751EF3255600A07469 /* MortgageCalculatorViewController.swift in Sources */,
+				BF94D0651EFB0C0F00A58AA0 /* MortgageTableViewCell.swift in Sources */,
+				BFCDF44C1EFB293C00770C33 /* MortgageTableViewController.swift in Sources */,
+				BFCDF4601F03216E00770C33 /* BarChartView+Data.swift in Sources */,
+				BF3AE7C31F0D4600004E973A /* TermRateInfo.swift in Sources */,
+				BFCDF44E1EFB2D5200770C33 /* MortgageDetailViewController.swift in Sources */,
 				BFB24D731EF3255600A07469 /* AppDelegate.swift in Sources */,
+				BF94D0631EFAF17800A58AA0 /* String+Currency.swift in Sources */,
+				BF94D0611EFAE84E00A58AA0 /* UITextField+Padding.swift in Sources */,
+				BFCDF4501F01CEED00770C33 /* MortgageBarViewController.swift in Sources */,
+				BFB24D931EF8464100A07469 /* MortgageCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +342,11 @@
 			isa = PBXTargetDependency;
 			target = BFB24D6E1EF3255500A07469 /* MortgageCalculator */;
 			targetProxy = BFB24D841EF3255600A07469 /* PBXContainerItemProxy */;
+		};
+		BFCDF45D1F01CFBD00770C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = BFCDF45C1F01CFBD00770C33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,10 +468,12 @@
 		BFB24D8D1EF3255600A07469 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAQ54M6373;
 				INFOPLIST_FILE = MortgageCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alinabpham.MortgageCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -352,10 +482,12 @@
 		BFB24D8E1EF3255600A07469 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAQ54M6373;
 				INFOPLIST_FILE = MortgageCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MortgageCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alinabpham.MortgageCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -408,6 +540,7 @@
 				BFB24D8E1EF3255600A07469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB24D8F1EF3255600A07469 /* Build configuration list for PBXNativeTarget "MortgageCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +549,7 @@
 				BFB24D911EF3255600A07469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
